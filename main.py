@@ -117,29 +117,29 @@ top_margin = 24
 text_remaining_time = canvas.create_text(64, top_margin, fill='red', font='calibri 42 bold')
 text_current_time = canvas.create_text(window_width-104, top_margin, fill='white', font='calibri 42 bold')
 
-# todays_lessons = ['MAT', 'MAT', 'MAT', 'PTM', 'PTM', 'PTM', 'COG', 'COG']
-# todays_timeslots = ['8:00-8:40',
-#                     '8:40-8:50', 
-#                     '8:50-9:30', 
-#                     '9:30-9:40', 
-#                     '9:40-10:20',
-#                     '10:20-10:30',  
-#                     '10:30-11:10', 
-#                     '11:10-11:20', 
-#                     '11:20-12:00', 
-#                     '12:00-13:00', 
-#                     '13:00-13:40', 
-#                     '13:40-13:50', 
-#                     '13:50-14:30', 
-#                     '14:30-14:40', 
-#                     '14:40-15:20']
+todays_lessons = ['MAT', 'MAT', 'MAT', 'PTM', 'PTM', 'PTM', 'COG', 'COG']
+todays_timeslots = ['8:00-8:40',
+                    '8:40-8:50', 
+                    '8:50-9:30', 
+                    '9:30-9:40', 
+                    '9:40-10:20',
+                    '10:20-10:30',  
+                    '10:30-11:10', 
+                    '11:10-11:20', 
+                    '11:20-12:00', 
+                    '12:00-13:00', 
+                    '13:00-13:40', 
+                    '13:40-13:50', 
+                    '13:50-14:30', 
+                    '14:30-14:40', 
+                    '14:40-15:20']
 
-todays_lessons = ['PTM', 'PTM', 'PTM']
-todays_timeslots = ['6:50-7:30',
-                    '7:30-7:40', 
-                    '7:40-8:20', 
-                    '8:20-8:30', 
-                    '8:30-9:10']
+# todays_lessons = ['PTM', 'PTM', 'PTM']
+# todays_timeslots = ['6:50-7:30',
+#                     '7:30-7:40', 
+#                     '7:40-8:20', 
+#                     '8:20-8:30', 
+#                     '8:30-9:10']
 
 # Get current date in YY-MM-DD format
 current_date = str(datetime.today().year) + '-' + str(datetime.today().month) + '-' + str(datetime.today().day) + ' '
